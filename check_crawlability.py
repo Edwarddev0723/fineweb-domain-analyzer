@@ -201,7 +201,7 @@ class RobotsChecker:
             result['error'] = f"robots.txt解析錯誤: {str(e)}"
     
     def check_domains_batch(self, domains, verbose=True):
-        """批量檢查域名列表"""
+        """批量檢查域名列表 - 改進版本，防止卡住"""
         self.total_count = len(domains)
         self.processed_count = 0
         start_time = time.time()
@@ -209,70 +209,18 @@ class RobotsChecker:
         if verbose:
             print(f"🤖 開始檢查 {len(domains)} 個域名的robots.txt...")
         
-        with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
-            # 提交所有任務
-            future_to_domain = {
-                executor.submit(self.check_robots_txt, domain): domain 
-                for domain in domains
-            }
+        # 分批處理，每批最多100個域名
+        batch_size = min(100, max(10, len(domains) // 10))
+        
+        for batch_start in range(0, len(domains), batch_size):
+            batch_end = min(batch_start + batch_size, len(domains))
+            batch_domains = domains[batch_start:batch_end]
             
-            # 設置總體超時時間（每個域名最多30秒）
-            total_timeout = len(domains) * 30
+            if verbose:
+                print(f"📦 處理批次: {batch_start//batch_size + 1}/{(len(domains)-1)//batch_size + 1} "
+                      f"({len(batch_domains)} 個域名)")
             
-            try:
-                # 收集結果，添加超時控制
-                for future in as_completed(future_to_domain, timeout=total_timeout):
-                    domain = future_to_domain[future]
-                    
-                    try:
-                        # 為每個future添加額外超時
-                        result = future.result(timeout=self.timeout + 5)
-                        
-                        with self.lock:
-                            self.results[domain] = result
-                            self.processed_count += 1
-                            
-                            if verbose:
-                                progress = (self.processed_count / self.total_count) * 100
-                                elapsed = time.time() - start_time
-                                rate = self.processed_count / elapsed if elapsed > 0 else 0
-                                eta = (self.total_count - self.processed_count) / rate if rate > 0 else 0
-                                
-                                # 每10個或者每5%顯示進度
-                                if (self.processed_count % 10 == 0 or 
-                                    self.processed_count % max(1, self.total_count // 20) == 0):
-                                    print(f"  ✅ {domain}")
-                                    print(f"  📊 進度: {self.processed_count}/{self.total_count} "
-                                          f"({progress:.1f}%) - 速度: {rate:.1f}/秒 - 預計剩餘: {eta:.0f}秒")
-                    
-                    except Exception as e:
-                        with self.lock:
-                            print(f"  ❌ {domain} 失敗: {str(e)}")
-                            self.results[domain] = {
-                                'domain': domain,
-                                'error': str(e),
-                                'crawl_allowed': False,
-                                'last_checked': datetime.now().isoformat()
-                            }
-                            self.processed_count += 1
-            
-            except Exception as timeout_error:
-                print(f"⚠️ 批量處理遇到問題: {timeout_error}")
-                print(f"📊 已完成 {self.processed_count}/{self.total_count} 個域名")
-                
-                # 取消未完成的任務
-                for future in future_to_domain:
-                    if not future.done():
-                        future.cancel()
-                        domain = future_to_domain[future]
-                        with self.lock:
-                            self.results[domain] = {
-                                'domain': domain,
-                                'error': '任務被取消或超時',
-                                'crawl_allowed': False,
-                                'last_checked': datetime.now().isoformat()
-                            }
-                            self.processed_count += 1
+            self._process_batch(batch_domains, verbose, start_time)
         
         elapsed_total = time.time() - start_time
         if verbose:
@@ -281,6 +229,77 @@ class RobotsChecker:
             print(f"❌ 處理失敗: {len([r for r in self.results.values() if r.get('error')])}")
         
         return self.results
+    
+    def _process_batch(self, batch_domains, verbose, start_time):
+        """處理單個批次"""
+        batch_timeout = len(batch_domains) * (self.timeout + 2)  # 每個域名額外2秒緩衝
+        
+        with ThreadPoolExecutor(max_workers=min(self.max_workers, len(batch_domains))) as executor:
+            # 提交批次任務
+            future_to_domain = {
+                executor.submit(self.check_robots_txt, domain): domain 
+                for domain in batch_domains
+            }
+            
+            completed_in_batch = 0
+            
+            try:
+                # 使用as_completed處理結果，添加批次超時
+                for future in as_completed(future_to_domain, timeout=batch_timeout):
+                    domain = future_to_domain[future]
+                    
+                    try:
+                        # 獲取結果，添加個別超時
+                        result = future.result(timeout=2)  # 快速獲取已完成的結果
+                        
+                        with self.lock:
+                            self.results[domain] = result
+                            self.processed_count += 1
+                            completed_in_batch += 1
+                            
+                            if verbose:
+                                progress = (self.processed_count / self.total_count) * 100
+                                elapsed = time.time() - start_time
+                                rate = self.processed_count / elapsed if elapsed > 0 else 0
+                                eta = (self.total_count - self.processed_count) / rate if rate > 0 else 0
+                                
+                                # 實時進度顯示
+                                if self.processed_count % 5 == 0 or progress >= 98:
+                                    print(f"  📊 進度: {self.processed_count}/{self.total_count} "
+                                          f"({progress:.1f}%) - 速度: {rate:.1f}/秒 - ETA: {eta:.0f}秒")
+                    
+                    except Exception as e:
+                        with self.lock:
+                            self.results[domain] = {
+                                'domain': domain,
+                                'error': str(e),
+                                'crawl_allowed': False,
+                                'last_checked': datetime.now().isoformat()
+                            }
+                            self.processed_count += 1
+                            completed_in_batch += 1
+                            
+                            if verbose:
+                                print(f"  ❌ {domain}: {str(e)[:50]}")
+            
+            except Exception as batch_error:
+                if verbose:
+                    print(f"⚠️ 批次處理異常: {batch_error}")
+                
+                # 處理未完成的任務
+                for future in future_to_domain:
+                    if not future.done():
+                        future.cancel()
+                        domain = future_to_domain[future]
+                        with self.lock:
+                            if domain not in self.results:
+                                self.results[domain] = {
+                                    'domain': domain,
+                                    'error': '批次處理超時或被取消',
+                                    'crawl_allowed': False,
+                                    'last_checked': datetime.now().isoformat()
+                                }
+                                self.processed_count += 1
 
 class CrawlabilityAnalyzer:
     """爬取能力分析器"""

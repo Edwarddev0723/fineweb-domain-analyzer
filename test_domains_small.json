@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "generated_at": "2025-07-18T17:35:45.423861",
+    "total_domains": 10,
+    "total_urls_processed": 10,
+    "format": "simple_list",
+    "pipeline_step": 1
+  },
+  "domains": [
+    "google.com",
+    "github.com",
+    "stackoverflow.com",
+    "wikipedia.org",
+    "example.com",
+    "python.org",
+    "microsoft.com",
+    "openai.com",
+    "reddit.com",
+    "news.ycombinator.com"
+  ]
+}
