@@ -2,6 +2,14 @@
 
 一個完整的 FineWeb 數據集域名分析和內容清洗工具，提供四大核心功能幫助研究人員安全、合規地處理網頁抓取數據。
 
+## 📋 系統架構
+
+### 整體流程圖
+![整體流程圖](chart/script_pipeline.png)
+
+### Robots.txt 檢查流程
+![Robots.txt 檢查流程](chart/robotstxt_check_pipeline.png)
+
 ## ✨ 核心功能
 
 1. **WARC 轉 JSON** - 將 WARC 文件轉換為易處理的 JSONL 格式
@@ -80,13 +88,21 @@ python fineweb_analyzer.py --input existing_data.jsonl --robots robots_check_*.j
 
 ## 🔍 Robots.txt 合規性
 
-本工具嚴格遵循 robots.txt 協議：
+本工具嚴格遵循 robots.txt 協議，詳細的檢查流程請參考 [Robots.txt 檢查流程圖](chart/robotstxt_check_pipeline.png)：
 
-- ✅ **自動檢查** robots.txt 文件
-- ✅ **遵循 Disallow 規則**
-- ✅ **尊重 Crawl-delay 設置**
-- ✅ **識別 AI 專用限制** (GPTBot, ClaudeBot 等)
-- ✅ **保護版權敏感內容**
+### 自動檢查機制
+- ✅ **自動檢查** robots.txt 文件存在性
+- ✅ **遵循 Disallow 規則** - 解析並應用禁止訪問路徑
+- ✅ **尊重 Crawl-delay 設置** - 識別並記錄延遲要求
+- ✅ **識別 AI 專用限制** (GPTBot, ClaudeBot, CCBot, Google-Extended 等)
+- ✅ **保護版權敏感內容** - 自動標記高風險域名
+
+### 判斷邏輯
+1. **優先檢查 HTTPS** - 首先嘗試 https://domain/robots.txt
+2. **回退到 HTTP** - HTTPS 失敗時嘗試 http://domain/robots.txt
+3. **404 = 默認允許** - 無 robots.txt 文件視為允許爬取
+4. **解析 User-agent** - 識別適用於通用爬蟲 (*) 的規則
+5. **AI 爬蟲特殊處理** - 檢測針對 AI 訓練的特殊限制
 
 ## 📈 性能特點
 
@@ -115,7 +131,14 @@ python fineweb_analyzer.py --input existing_data.jsonl --robots robots_check_*.j
 fineweb-domain-analyzer/
 ├── fineweb_analyzer.py     # 主程序
 ├── requirements.txt        # 依賴列表
+├── LICENSE                 # MIT 許可證
 ├── README.md              # 使用說明
+├── chart/                 # 流程圖文檔
+│   ├── script_pipeline.png           # 整體系統流程圖
+│   └── robotstxt_check_pipeline.png  # Robots.txt 檢查流程圖
+├── examples/              # 示例數據
+│   ├── test_data.jsonl    # 測試用 JSONL 數據
+│   └── README.md          # 示例數據說明
 └── output/               # 輸出目錄
     ├── *.jsonl          # 轉換和過濾後的數據
     ├── domains_*.json   # 域名分析結果
@@ -129,14 +152,77 @@ fineweb-domain-analyzer/
 
 ### 開發環境
 ```bash
-git clone https://github.com/your-username/fineweb-domain-analyzer.git
+git clone https://github.com/Edwarddev0723/fineweb-domain-analyzer.git
 cd fineweb-domain-analyzer
 pip install -r requirements.txt
 ```
 
 ### 運行測試
 ```bash
+# 使用示例數據測試完整流程
+python fineweb_analyzer.py --input examples/test_data.jsonl --all-steps --verbose
+
 # 使用小樣本測試
 python fineweb_analyzer.py --input sample.warc.gz --all-steps --max-records 100 --verbose
 ```
+
+## 🔄 工作流程詳解
+
+### 四步驟處理流程
+如 [整體流程圖](chart/script_pipeline.png) 所示，系統包含四個主要處理步驟：
+
+1. **📄 WARC 轉 JSON** 
+   - 輸入：WARC/WARC.gz 文件
+   - 處理：提取 HTTP 響應記錄
+   - 輸出：JSONL 格式的結構化數據
+
+2. **🔍 域名分析**
+   - 輸入：JSONL 數據文件
+   - 處理：提取並統計所有唯一域名
+   - 輸出：域名列表和詳細統計
+
+3. **🤖 Robots.txt 檢查**
+   - 輸入：域名列表
+   - 處理：並發檢查每個域名的 robots.txt
+   - 輸出：爬取權限分析結果
+
+4. **🔧 內容過濾**
+   - 輸入：原始 JSONL + Robots.txt 結果
+   - 處理：基於合規性過濾內容
+   - 輸出：清洗後的安全數據
+
+### 數據流轉換
+```
+WARC → JSONL → 域名列表 → Robots.txt結果 → 過濾後數據
+  ↓      ↓        ↓           ↓            ↓
+ 原始   結構化   域名統計   合規性分析    安全數據
+```
+
+## 📞 支持
+
+- 🐛 **Bug 報告**: [GitHub Issues](https://github.com/Edwarddev0723/fineweb-domain-analyzer/issues)
+- 💡 **功能建議**: [GitHub Discussions](https://github.com/Edwarddev0723/fineweb-domain-analyzer/discussions)
+- 📧 **聯繫方式**: 通過 GitHub 聯繫
+
+## 📷 流程圖說明
+
+### 整體架構圖 (script_pipeline.png)
+展示了從原始 WARC 文件到最終清洗數據的完整四步驟流程，包括：
+- 數據格式轉換路徑
+- 各步驟的輸入輸出關係
+- 並行處理和決策分支點
+- 最終的數據分類結果
+
+### Robots.txt 檢查流程 (robotstxt_check_pipeline.png)
+詳細說明了域名合規性檢查的邏輯：
+- HTTPS/HTTP 協議優先級
+- robots.txt 文件解析步驟
+- User-agent 匹配規則
+- Disallow/Allow 路徑處理
+- AI 爬蟲特殊限制識別
+- 最終可爬性判斷標準
+
+---
+
+**⚠️ 重要提醒**: 使用本工具處理數據時，請確保遵循相關法律法規和數據使用政策。本工具旨在幫助研究人員合規地處理網頁數據，促進負責任的 AI 研究發展。
 
