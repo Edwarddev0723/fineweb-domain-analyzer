@@ -8,7 +8,7 @@
 ![整體流程圖](chart/script_pipeline.png)
 
 ### Robots.txt 檢查流程
-![Robots.txt 檢查流程](chart/robotstxt_check_pipeline.png)
+![Robots.txt 檢查流程](chart/roboxtxt_check_pipeline.png)
 
 ## ✨ 核心功能
 
