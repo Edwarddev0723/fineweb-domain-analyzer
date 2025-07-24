@@ -1,0 +1,506 @@
+{
+  "metadata": {
+    "generated_at": "2025-07-24T13:32:14.233528",
+    "total_domains": 46,
+    "user_agent": "*",
+    "timeout": 5
+  },
+  "results": {
+    "061ss.com": {
+      "domain": "061ss.com",
+      "robots_exists": true,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": null,
+      "last_checked": "2025-07-24T13:29:50.509093",
+      "robots_content": "<script type=\"text/javascript\">\r\n        // Ê¹ÓÃJavaScript½øÐÐ3Ãëºó×Ô¶¯Ìø×ªµ½Ê×Ò³\r\n        setTimeout(function(){\r\n            window.location.href = \"/\";\r\n        }, 0);\r\n    </script>\r\n"
+    },
+    "074452.com": {
+      "domain": "074452.com",
+      "robots_exists": false,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": null,
+      "last_checked": "2025-07-24T13:29:51.197824"
+    },
+    "0755cxjz.com": {
+      "domain": "0755cxjz.com",
+      "robots_exists": false,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": null,
+      "last_checked": "2025-07-24T13:29:52.047576"
+    },
+    "04hl.esxmovies.com": {
+      "domain": "04hl.esxmovies.com",
+      "robots_exists": false,
+      "crawl_allowed": false,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": "連接失敗: HTTPConnectionPool(host='04hl.esxmovies.com', port=80): Max retries exceeded with url: /robots.txt (",
+      "last_checked": "2025-07-24T13:29:50.509093"
+    },
+    "0.pembrokeconcrete.com": {
+      "domain": "0.pembrokeconcrete.com",
+      "robots_exists": false,
+      "crawl_allowed": false,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": "連接失敗: HTTPConnectionPool(host='0.pembrokeconcrete.com', port=80): Max retries exceeded with url: /robots.t",
+      "last_checked": "2025-07-24T13:29:50.508092"
+    },
+    "0758live.com": {
+      "domain": "0758live.com",
+      "robots_exists": true,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": null,
+      "last_checked": "2025-07-24T13:29:52.807885",
+      "robots_content": "<!DOCTYPE html>\r\n<html lang=\"zh-cn\">\r\n\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n  <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n  <title>ååå·²è¿æ</title>\r\n  <style>\r\n    body {\r\n      line-height: 1.6;\r\n      font-size: 12px;\r\n      color: #555;\r\n    }\r\n    \r\n    li {\r\n      line-height: 20px;\r\n    }\r\n    \r\n    .wrapper {\r\n      max-width: 800px;\r\n      margin: 0 auto;\r\n      background: #fffbd8;\r\n      box-sizing: border-box;\r\n    }\r\n    \r\n    .content,\r\n    .links {\r\n      padding: 0.5em 2em 2em;\r\n    }\r\n    \r\n    .title {\r\n      color: #000;\r\n      font-size: 26px;\r\n      font-weight: normal;\r\n    }\r\n    \r\n    .sub-title {\r\n      font-size: 14px;\r\n      color: #FF5722;\r\n    }\r\n    \r\n    .links {\r\n      background: #FF5722;\r\n    }\r\n    \r\n    .links .title {\r\n      font-size: 18px;\r\n      color: #fff;\r\n    }\r\n    \r\n    .links a {\r\n      color: #ffeb3b;\r\n      text-decoration: none;\r\n      font-size: 14px;\r\n      transition: color 0.3s;\r\n    }\r\n    \r\n    .links a:hover {\r\n      color: #fff;\r\n    }\r\n    \r\n    .links a+a {\r\n      margin-left: 1em;\r\n    }\r\n  </style>\r\n</head>\r\n\r\n<body>\r\n  <div class=\"wrapper\">\r\n    <div class=\"links\">\r\n      <p class=\"title\">ä¸ºæ¨æ¨è:</p>\r\n      <a href=\"https://www.gzidc.com/cloud.php\">æ°ä¸ä»£äºè®¡ç®</a>\r\n      <a href=\"https://www.gzidc.com/FrontIndex/xncloud/pid/3166.html\">é«é²äº</a>\r\n      <a href=\"https://gzidc.com/FrontEcs/index.html\">é¿éäº</a>\r\n      <a href=\"https://gzidc.com/FrontHost/details/product/highQ-1.html\">äºèæº</a>\r\n    </div>\r\n    <div class=\"content\">\r\n      <p class=\"title\">æ¨è®¿é®çååå·²è¿æï¼è¯·å°½å¿«èç³»æ¨çæå¡åç»­è´¹ã</p>\r\n      <p>\r\n        ååè¿æè§åï¼\r\n      </p>\r\n      <ol>\r\n        <li>\r\n          <p class=\"sub-title\"> åå(pre-expiration)éç¥</p>\r\n          <p>ååè¿æåç³»ç»ä¼èªå¨åéå°ææééç¥å°ååææèèç³»é®ç®±ã</p>\r\n        </li>\r\n        <li>\r\n          <p class=\"sub-title\"> åå(post-expiration)éç¥</p>\r\n          <p>ååè¿æå½å¤©ç³»ç»ä¼åéå°æåæ­¢ä½¿ç¨éç¥å°ååææèèç³»é®ç®±ã</p>\r\n        </li>\r\n        <li>\r\n          <p class=\"sub-title\">ååç»­è´¹ä»·æ ¼</p>\r\n          <p>æ¯ä¸ªååç»­è´¹ä»·æ ¼å¯è½ä¸ä¸è´ã</p>\r\n        </li>\r\n        <li>\r\n          <p class=\"sub-title\">åå(post-expiration)ç»­è´¹ä»·æ ¼</p>\r\n          <p>ååè¿æ30å¤©åå¯ä»¥ææ­£å¸¸ä»·æ ¼ç»­è´¹ã</p>\r\n        </li>\r\n        <li>\r\n          <p class=\"sub-title\">åå(redemption/restore)èµåä»·æ ¼</p>\r\n          <p>ååè¿æç¬¬30å¤©èµ·ä¼è¿å¥é«ä»·èµåæï¼éè¦äº¤çº³èµåè´¹ç¨+1å¹´ç»­è´¹è´¹ç¨ï¼å¹¶ä¸ååä¸æ¦è¿å¥\r\n            <strong>å é¤æ</strong>å°±ä¸è½æ­£å¸¸ç»­è´¹åèµåï¼è¯·ç¥æã</p>\r\n        </li>\r\n      </ol>\r\n    </div>\r\n    <script type=\"text/javascript\" src=\"https://apps.bdimg.com/libs/jquery/1.10.1/jquery.min.js\"></script>\r\n    <script type=\"text/javascript\">\r\n      $(function () {\r\n        $('.links').on('click', 'a', function (e) {\r\n          e.preventDefault();\r\n          window.top.location.replace(this.href);\r\n        });\r\n      });\r\n    </script>\r\n  </div>\r\n</body>\r\n\r\n</html>\r\n"
+    },
+    "0803.h694.com": {
+      "domain": "0803.h694.com",
+      "robots_exists": false,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": null,
+      "last_checked": "2025-07-24T13:30:02.913827"
+    },
+    "1110111.com": {
+      "domain": "1110111.com",
+      "robots_exists": true,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [
+        "/wp-admin/"
+      ],
+      "error": null,
+      "last_checked": "2025-07-24T13:30:11.521150",
+      "robots_content": " User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n\nSitemap: https://1110111.com/wp-sitemap.xml\n"
+    },
+    "10kh.show": {
+      "domain": "10kh.show",
+      "robots_exists": false,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": null,
+      "last_checked": "2025-07-24T13:30:06.612148"
+    },
+    "1024clsq.com": {
+      "domain": "1024clsq.com",
+      "robots_exists": true,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": null,
+      "last_checked": "2025-07-24T13:30:02.913827",
+      "robots_content": "User-agent: DotBot\r\nDisallow: /\r\nUser-agent: SEOkicks\r\nDisallow: /\r\nUser-agent: AhrefsBot\r\nDisallow: /\r\nUser-agent: SemrushBot\r\nDisallow: /\r\nUser-agent: MJ12bot\r\nDisallow: /\r\nUser-agent: ZoominfoBot\r\nDisallow: /\r\nUser-agent: Adsbot\r\nDisallow: /\r\nSitemap:/sitemap.xml"
+    },
+    "123495479.indirettamente.it": {
+      "domain": "123495479.indirettamente.it",
+      "robots_exists": true,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": null,
+      "last_checked": "2025-07-24T13:30:20.789386",
+      "robots_content": "User-agent: Googlebot\nDisallow: /*?\nDisallow: /munin*\n\nUser-agent: Baiduspider\nDisallow: /*?\nDisallow: /munin*\n\nUser-agent: YandexBot\nDisallow: /*?\nDisallow: /munin*\n\nUser-agent: ichiro\nDisallow:  /*?\nDisallow: /munin*\n\nUser-agent: sogou spider\nDisallow:  /*?\nDisallow: /munin*\n\nUser-agent: Sosospider\nDisallow: /*?\nDisallow: /munin*\n\nUser-agent: YoudaoBot\nDisallow: /*?\nDisallow: /munin*\n\nUser-agent: YetiBot\nDisallow: /*?\nDisallow: /munin*\n\nUser-agent: bingbot\nCrawl-delay: 2\nDisallow: /*?\nDisallow: /munin*\n\nUser-Agent: Yahoo! Slurp \nCrawl-delay: 2\nDisallow: /*?\nDisallow: /munin*\n\nUser-agent: rdfbot\nDisallow: /*?\nDisallow: /munin*\n\nUser-agent: Seznambot \nRequest-rate: 1/2s\nDisallow: /*?\nDisallow: /munin*\n\nUser-agent: ia_archiver\nDisallow: /munin*\n\nUser-agent: Mediapartners-Google\nDisallow: /munin*"
+    },
+    "122colmorerow.co.uk": {
+      "domain": "122colmorerow.co.uk",
+      "robots_exists": false,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": null,
+      "last_checked": "2025-07-24T13:30:15.485571"
+    },
+    "11eo.top": {
+      "domain": "11eo.top",
+      "robots_exists": false,
+      "crawl_allowed": false,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": "連接失敗: HTTPConnectionPool(host='11eo.top', port=80): Max retries exceeded with url: /robots.txt (Caused by ",
+      "last_checked": "2025-07-24T13:30:12.572628"
+    },
+    "173liveshow.adult358.com": {
+      "domain": "173liveshow.adult358.com",
+      "robots_exists": false,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": null,
+      "last_checked": "2025-07-24T13:30:24.790539"
+    },
+    "1307state.com": {
+      "domain": "1307state.com",
+      "robots_exists": false,
+      "crawl_allowed": false,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": "連接失敗: HTTPConnectionPool(host='1307state.com', port=80): Max retries exceeded with url: /robots.txt (Cause",
+      "last_checked": "2025-07-24T13:30:24.345019"
+    },
+    "13.231.127.131": {
+      "domain": "13.231.127.131",
+      "robots_exists": true,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": null,
+      "last_checked": "2025-07-24T13:30:21.918919",
+      "robots_content": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n<title>ナレッジキャピタル Not Found(404)</title>\n\n\n<link rel=\"stylesheet\" href=\"/err/css/common.css\">\n<!--gf-header kc-navi footer-->\n<link type=\"text/css\" href=\"/css/format.css\" media=\"all\" rel=\"stylesheet\" />\n<link type=\"text/css\" href=\"/css/migration-data.css\" media=\"all\" rel=\"stylesheet\" />\n<script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js\"></script>\n<script src=\"//ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/jquery-ui.min.js\"></script>\n<script src=\"/js/miscellaneous.js\"></script>\n<!--/gf-header kc-navi footer-->\n<script src=\"/js/ga.js\"></script>\n\n\n<style type=\"text/css\">\n<!--\nbody {\n　background-color: #fff;\n　color: #000;\n}\n-->\n</style>\n\n</head>\n\n<body>\n\r\n<!-- Google Tag Manager (noscript) -->\r\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-WNHQZ3B\"\r\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\r\n<!-- End Google Tag Manager (noscript) -->\r\n\r\n<div id=\"navigator-grandfront-pc\">\r\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/gfo_head.css?date=20171120\" />\r\n  <div id=\"headjs\">\r\n    <div id=\"headjs_sub\">\r\n      <div id=\"menu_S_warp\">\r\n        <ul id=\"menu_S\">\r\n          <li class=\"logo\">\r\n            <a href=\"http://www.grandfront-osaka.jp/\" target=\"_blank\">\r\n              <picture>\r\n              <source type=\"image/webp\" srcset=\"/img/common/head_S_logo.webp\" loading=\"lazy\">\r\n              <source srcset=\"/img/common/head_S_logo.png\" loading=\"lazy\">\r\n              <img src=\"/img/common/head_S_logo.png\" alt=\"グランフロント大阪\" loading=\"lazy\">\r\n              </picture>\r\n            </a>\r\n          </li>\r\n          <li class=\"menu01\">\r\n            <a href=\"https://www.gfo-sc.jp/\" target=\"_blank\">\r\n              <picture>\r\n              <source type=\"image/webp\" srcset=\"/img/common/bt_head_S_01.webp\" loading=\"lazy\">\r\n              <source srcset=\"/img/common/bt_head_S_01.png\" loading=\"lazy\">\r\n              <img src=\"/img/common/bt_head_S_01.png\" alt=\"GRAND FRONT OSAKA SHOPS & RESTAURANTS\" loading=\"lazy\">\r\n              </picture>\r\n            </a>\r\n          </li>\r\n          <li class=\"menu02 onv\">\r\n            <a href=\"http://kc-i.jp/\">\r\n              <picture>\r\n              <source type=\"image/webp\" srcset=\"/img/common/bt_head_S_02.webp\" loading=\"lazy\">\r\n              <source srcset=\"/img/common/bt_head_S_02.png\" loading=\"lazy\">\r\n              <img src=\"/img/common/bt_head_S_02.png\" alt=\"ナレッジキャピタル\" loading=\"lazy\">\r\n              </picture>\r\n            </a>\r\n          </li>\r\n          <li class=\"menu03\">\r\n            <a href=\"http://www.icosaka.com/\" target=\"_blank\">\r\n              <picture>\r\n              <source type=\"image/webp\" srcset=\"/img/common/bt_head_S_03.webp\" loading=\"lazy\">\r\n              <source srcset=\"/img/common/bt_head_S_03.png\" loading=\"lazy\">\r\n              <img src=\"/img/common/bt_head_S_03.png\" alt=\"インターコンチネンタルホテル大阪\" loading=\"lazy\">\r\n              </picture>\r\n            </a>\r\n          </li>\r\n          <li class=\"bt_fb\">\r\n            <a href=\"https://www.facebook.com/knowledgecapital\" target=\"_blank\">\r\n              <picture>\r\n              <source type=\"image/webp\" srcset=\"/img/common/share_fb.webp\" loading=\"lazy\">\r\n              <source srcset=\"/img/common/share_fb.png\" loading=\"lazy\">\r\n              <img src=\"/img/common/share_fb.png\" alt=\"Facebook\" loading=\"lazy\">\r\n              </picture>\r\n            </a>\r\n          </li>\r\n          <li class=\"bt_tw\">\r\n            <a href=\"https://twitter.com/knowledge_cptl\" target=\"_blank\">\r\n              <picture>\r\n              <source type=\"image/webp\" srcset=\"/img/common/share_tw.webp?date=20231010\" loading=\"lazy\">\r\n              <source srcset=\"/img/common/share_tw.png?date=20231010\" loading=\"lazy\">\r\n              <img src=\"/img/common/share_tw.png?date=20231010\" alt=\"X\" loading=\"lazy\">\r\n              </picture>\r\n            </a>\r\n          </li>\r\n          <li class=\"bt_ig\">\r\n            <a href=\"https://www.instagram.com/knowledgecapital\" target=\"_blank\">\r\n              <picture>\r\n              <source type=\"image/webp\" srcset=\"/img/common/share_ig.webp\" loading=\"lazy\">\r\n              <source srcset=\"/img/common/share_ig.png\" loading=\"lazy\">\r\n              <img src=\"/img/common/share_ig.png\" alt=\"instagram\" loading=\"lazy\">\r\n              </picture>\r\n            </a>\r\n          </li>\r\n          <li class=\"bt_yt\">\r\n            <a href=\"https://www.youtube.com/user/knowledgecapitalTV\" target=\"_blank\">\r\n              <picture>\r\n              <source type=\"image/webp\" srcset=\"/img/common/share_yt.webp\" loading=\"lazy\">\r\n              <source srcset=\"/img/common/share_yt.png\" loading=\"lazy\">\r\n              <img src=\"/img/common/share_yt.png\" alt=\"youtube\" loading=\"lazy\">\r\n              </picture>\r\n            </a>\r\n          </li>\r\n        </ul>\r\n        <ul id=\"languagemenu\">\r\n          <li>▼ Language\r\n            <ul>\r\n              <li><a href=\"/en/\" target=\"_blank\">English</a></li>\r\n              <li><a href=\"/ch/\" target=\"_blank\">簡体字</a></li>\r\n              <li><a href=\"/tw/\" target=\"_blank\">繁体字</a></li>\r\n              <li><a href=\"/kr/\" target=\"_blank\">한국어</a></li>\r\n            </ul>\r\n          </li>\r\n        </ul>\r\n        <div class=\"dropdown\">\r\n          <input id=\"tg\" class=\"dropInput\" type=\"checkbox\">\r\n          <label for=\"tg\" class=\"dropLabel\">▼ Language</label>\r\n          <ul class=\"menu animation\">\r\n            <li><a class=\"item\" href=\"/en/\" target=\"_blank\">English</a></li>\r\n            <li><a class=\"item\" href=\"/ch/\" target=\"_blank\">簡体字</a></li>\r\n            <li><a class=\"item\" href=\"/tw/\" target=\"_blank\">繁体字</a></li>\r\n            <li><a class=\"item\" href=\"/kr/\" target=\"_blank\">한국어</a></li>\r\n          </ul>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n<div id=\"headerAttention01\"></div>\r\n<h1>\r\n  <a href=\"/\">\r\n    <picture>\r\n    <source type=\"image/webp\" srcset=\"/img/common/logo_kc.webp?202404\" loading=\"lazy\">\r\n    <source srcset=\"/img/common/logo_kc.png?202404\" loading=\"lazy\">\r\n    <img src=\"/img/common/logo_kc.png?202404\" loading=\"lazy\" style=\"max-width: 100%; height: auto;\">\r\n    </picture>\r\n  </a>\r\n</h1>\r\n\r\n\r\n<div id=\"navigatorWrap\">\r\n<div id=\"navigator\">\r\n  <ol>\r\n    <li anchor=\"/know/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'ナレッジキャピタルを知る');\"><i></i><label>ナレッジキャピタルを知る</label><div></div></li>\r\n    <li anchor=\"/communicator/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'コミュニケーター');\">\r\n      <i></i><label>コミュニケーター</label>\r\n      <div>\r\n        <ul>\r\n          <li><a href=\"/communicator/kc-tour/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'ナレッジキャピタルツアー');\"><i>▶</i>ナレッジキャピタルツアー</a></li>\r\n          <li><a href=\"/communicator/thelab-tour/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'The Lab.ツアー');\"><i>▶</i>The Lab.ツアー</a></li>\r\n          <li><a href=\"/communicator/kc-taisou/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'ナレッジキャピタル体操');\"><i>▶</i>ナレッジキャピタル体操</a></li>\r\n        </ul>\r\n      </div>\r\n    </li>\r\n    <li anchor=\"/activity/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'アクティビティ');\">\r\n      <i></i><label>アクティビティ</label>\r\n      <div>\r\n        <ul>\r\n          <li><a href=\"/Calendar/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'イベントカレンダー');\"><i>▶</i>イベントカレンダー</a></li>\r\n          <li><a href=\"/activity/chogakko/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', '超学校');\"><i>▶</i>超学校</a></li>\r\n          <li><a href=\"/activity/tairyu-pot/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', '対流ポット');\"><i>▶</i>対流ポット</a></li>\r\n          <li><a href=\"/activity/workshop-fes/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'ワークショップフェス');\"><i>▶</i>ワークショップフェス</a></li>\r\n          <li><a href=\"/activity/kotatsu/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'こたつ会議');\"><i>▶</i>こたつ会議</a></li>\r\n          <li><a href=\"/activity/217/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', '建築レクチュアシリーズ 217');\"><i>▶</i>建築レクチュアシリーズ 217</a></li>\r\n        </ul>\r\n        <ul>\r\n          <li><a href=\"/activity/fls-event/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', '近日開催のイベント');\"><i>▶</i>近日開催のイベント</a></li>\r\n          <li><a href=\"/activity/salon-event/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'サロンイベントのご案内');\"><i>▶</i>サロンイベントのご案内</a></li>\r\n          <li><a href=\"/activity/salon-event-report/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'サロンイベントレポート');\"><i>▶</i>サロンイベントレポート</a></li>\r\n          <li><a href=\"/activity/kwn/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'ナレッジワールドネットワーク');\"><i>▶</i>ナレッジワールドネットワーク</a></li>\r\n          <li><a href=\"/activity/ichitasu/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', '月刊ナレッジキャピタル１＋(イチタス)');\"><i>▶</i>月刊ナレッジキャピタル１＋(イチタス)</a></li>\r\n          <li><a href=\"/activity/times/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'ナレッジタイムズ');\"><i>▶</i>ナレッジタイムズ</a></li>\r\n        </ul>\r\n        <ul>\r\n          <li><a href=\"/activity/acic/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'Asia Creative & Innovation Channel');\"><i>▶</i>Asia Creative & Innovation Channel</a></li>\r\n          <li><a href=\"/activity/award/omosiroi/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'World OMOSIROI Award');\"><i>▶</i>World OMOSIROI Award</a></li>\r\n          <li><a href=\"/activity/award/isca/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'International Student Creative Award');\"><i>▶</i>International Student Creative Award</a></li>\r\n          <li><a href=\"/activity/award/innovation/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'Knowledge Innvation Award');\"><i>▶</i>Knowledge Innovation Award</a></li>\r\n          <li><a href=\"/activity/archive/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'イベントアーカイブ');\"><i>▶</i>イベントアーカイブ</a></li>\r\n        </ul>\r\n      </div>\r\n    </li>\r\n    <li anchor=\"/information/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'お知らせ');\"><i></i><label>お知らせ</label><div></div></li>\r\n    <li anchor=\"/facilities/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', '施設ガイド');\">\r\n      <i></i><label>施設ガイド</label>\r\n      <div>\r\n        <ul>\r\n          <li><a href=\"/facilities/floor-guide/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'フロアガイド');\"><i>▶</i>フロアガイド</a></li>\r\n          <li><a href=\"/facilities/the-lab/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'ザ・ラボ');\"><i>▶</i>ザ・ラボ</a></li>\r\n          <li class=\"l-sub\"><a href=\"/facilities/the-lab/active-lab/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'アクティブラボ');\">アクティブラボ</a></li>\r\n          <li class=\"l-sub\"><a href=\"/facilities/the-lab/active-studio/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'アクティブスタジオ');\">アクティブスタジオ</a></li>\r\n          <li class=\"l-sub\"><a href=\"/facilities/the-lab/cafe-lab/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'カフェラボ');\">カフェラボ</a></li>\r\n          <li class=\"l-sub\"><a href=\"https://www.kc-space.jp/eventlab/\" target=\"_blank\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'イベントラボ');\">イベントラボ</a></li>\r\n          <li><a href=\"/facilities/business/knowledge-salon/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'ナレッジサロン');\"><i>▶</i>ナレッジサロン</a></li>\r\n          <li><a href=\"/facilities/fls/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'フューチャーライフショールーム');\"><i>▶</i>フューチャーライフショールーム</a></li>\r\n        </ul>\r\n        <ul>\r\n          <li><a href=\"/facilities/springx/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'SpringX');\"><i>▶</i>SpringX</a></li>\r\n          <li><a href=\"https://www.kc-space.jp/theater/\" target=\"_blank\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'ナレッジシアター');\"><i>▶</i>ナレッジシアター</a></li>\r\n          <li><a href=\"https://www.kc-space.jp/\" target=\"_blank\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'カンファレンスルーム');\"><i>▶</i>カンファレンスルーム</a></li>\r\n          <li><a href=\"http://www.congre-cc.jp/\" target=\"_blank\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'コングレコンベンションセンター');\"><i>▶</i>コングレコンベンションセンター</a></li>\r\n          <li><a href=\"/facilities/business/knowledge-office/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'ナレッジオフィス');\"><i>▶</i>ナレッジオフィス</a></li>\r\n          <li><a href=\"/facilities/business/collabo-office/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'コラボオフィス');\"><i>▶</i>コラボオフィス</a></li>\r\n          <li><a href=\"/facilities/business/collabo-office-nx/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'コラボオフィスnx');\"><i>▶</i>コラボオフィスnx</a></li>\r\n          <li><a href=\"/facilities/guide-tour/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', '施設ガイドツアー');\"><i>▶</i>施設ガイドツアー</a></li>\r\n        </ul>\r\n      </div>\r\n    </li>\r\n    <li anchor=\"/about/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'About Us');\">\r\n      <i></i><label>About Us</label>\r\n      <div>\r\n        <ul>\r\n          <li><a href=\"/about/organization/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', '運営組織');\"><i>▶</i>運営組織</a></li>\r\n          <li><a href=\"/about/development/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', '開発経緯');\"><i>▶</i>開発経緯</a></li>\r\n          <li><a href=\"/about/location/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'ロケーション');\"><i>▶</i>ロケーション</a></li>\r\n          <li><a href=\"/about/partners/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', '海外連携機関');\"><i>▶</i>海外連携機関</a></li>\r\n        </ul>\r\n      </div>\r\n    </li>\r\n    <li anchor=\"/access/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'アクセス');\"><i></i><label>アクセス</label><div></div></li>\r\n  </ol>\r\n</div>\r\n\r\n\r\n<div id=\"navigator_knowledge-capital-sp\">\r\n<a class=\"toggle\">メニューを開く<img src=\"/img/icon/icon_arrow.png\"></a>\r\n<ul>\r\n\r\n<li><a href=\"/know/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'ナレッジキャピタルを知る');\">ナレッジキャピタルを知る</a></li>\r\n\r\n<li>\r\n<a class=\"toggle\">コミュニケーター<img src=\"/img/icon/icon_arrow.png\"></a>\r\n<ol>\r\n<li class=\"footernavi-hidden\"><a href=\"/communicator/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'コミュニケーター');\">コミュニケーター</a></li>\r\n<li><a href=\"/communicator/kc-tour/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'ナレッジキャピタルツアー');\">ナレッジキャピタルツアー</a></li>\r\n<li><a href=\"/communicator/thelab-tour/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'The Lab.ツアー');\">The Lab.ツアー</a></li>\r\n<li><a href=\"/communicator/kc-taisou/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'ナレッジキャピタル体操');\">ナレッジキャピタル体操</a></li>\r\n</ol>\r\n</li>\r\n\r\n<li>\r\n<a class=\"toggle\">アクティビティ<img src=\"/img/icon/icon_arrow.png\"></a>\r\n<ol>\r\n<li class=\"footernavi-hidden\"><a href=\"/activity/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'アクティビティ');\">アクティビティ</a></li>\r\n\r\n<li><a href=\"/Calendar/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'イベントカレンダー');\">イベントカレンダー</a></li>\r\n<li><a href=\"/activity/chogakko/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', '超学校');\">超学校</a></li>\r\n<li><a href=\"/activity/tairyu-pot/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', '対流ポット');\">対流ポット</a></li>\r\n<li><a href=\"/activity/workshop-fes/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'ワークショップフェス');\">ワークショップフェス</a></li>\r\n<li><a href=\"/activity/kotatsu/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'こたつ会議');\">こたつ会議</a></li>\r\n<li><a href=\"/activity/217/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', '建築レクチュアシリーズ 217');\">建築レクチュアシリーズ 217</a></li>\r\n<li><a href=\"/activity/fls-event/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', '近日開催のイベント');\">近日開催のイベント</a></li>\r\n<li><a href=\"/activity/salon-event/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'サロンイベントのご案内');\">サロンイベントのご案内</a></li>\r\n<li><a href=\"/activity/salon-event-report/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'サロンイベントレポート');\">サロンイベントレポート</a></li>\r\n<li><a href=\"/activity/kwn/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'ナレッジワールドネットワーク');\">ナレッジワールドネットワーク</a></li>\r\n<li><a href=\"/activity/ichitasu/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', '月刊ナレッジキャピタル１＋(イチタス)');\">月刊ナレッジキャピタル１＋(イチタス)</a></li>\r\n<li><a href=\"/activity/times/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'ナレッジタイムズ');\">ナレッジタイムズ</a></li>\r\n<li><a href=\"/activity/acic/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'Asia Creative & Innovation Channel');\">Asia Creative & Innovation Channel</a></li>\r\n<li><a href=\"/activity/award/omosiroi/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'World OMOSIROI Award');\">World OMOSIROI Award</a></li>\r\n<li><a href=\"/activity/award/isca/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'International Student Creative Award');\">International Student Creative Award</a></li>\r\n<li><a href=\"/activity/award/innovation/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'Knowledge Innvation Award');\">Knowledge Innovation Award</a></li>\r\n<li><a href=\"/activity/archive/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'イベントアーカイブ');\">イベントアーカイブ</a></li>\r\n\r\n</ol>\r\n</li>\r\n\r\n<li><a href=\"/information/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'お知らせ');\">お知らせ</a></li>\r\n\r\n<li>\r\n<a class=\"toggle\">施設ガイド<img src=\"/img/icon/icon_arrow.png\"></a>\r\n<ol>\r\n<li class=\"footernavi-hidden\"><a href=\"/facilities/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', '施設ガイド');\">施設ガイド</a></li>\r\n<li><a href=\"/facilities/floor-guide/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'フロアガイド');\">フロアガイド</a></li>\r\n<li><a href=\"/facilities/the-lab/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'ザ・ラボ');\">ザ・ラボ</a></li>\r\n<li class=\"sub\"><a href=\"/facilities/the-lab/active-lab/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'アクティブラボ');\">アクティブラボ</a></li>\r\n<li class=\"sub\"><a href=\"/facilities/the-lab/active-studio/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'アクティブスタジオ');\">アクティブスタジオ</a></li>\r\n<li class=\"sub\"><a href=\"/facilities/the-lab/cafe-lab/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'カフェラボ');\">カフェラボ</a></li>\r\n<li class=\"sub\"><a href=\"https://www.kc-space.jp/eventlab/\" target=\"_blank\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'イベントラボ');\">イベントラボ</a></li>\r\n<li><a href=\"/facilities/business/knowledge-salon/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'ナレッジサロン');\">ナレッジサロン</a></li>\r\n<li><a href=\"/facilities/fls/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'フューチャーライフショールーム');\">フューチャーライフショールーム</a></li>\r\n<li><a href=\"/facilities/springx/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'SpringX');\">SpringX</a></li>\r\n<li><a href=\"https://www.kc-space.jp/theater/\" target=\"_blank\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'ナレッジシアター');\">ナレッジシアター</a></li>\r\n<li><a href=\"https://www.kc-space.jp/\" target=\"_blank\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'カンファレンスルーム');\">カンファレンスルーム</a></li>\r\n<li><a href=\"http://www.congre-cc.jp/\" target=\"_blank\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'コングレコンベンションセンター');\">コングレコンベンションセンター</a></li>\r\n<li><a href=\"/facilities/business/knowledge-office/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'ナレッジオフィス');\">ナレッジオフィス</a></li>\r\n<li><a href=\"/facilities/business/collabo-office/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'コラボオフィス');\">コラボオフィス</a></li>\r\n<li><a href=\"/facilities/business/collabo-office-nx/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'コラボオフィスnx');\">コラボオフィスnx</a></li>\r\n<li><a href=\"/facilities/guide-tour/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', '施設ガイド');\">施設ガイドツアー</a></li>\r\n</ol>\r\n</li>\r\n\r\n<li>\r\n<a class=\"toggle\">About Us<img src=\"/img/icon/icon_arrow.png\"></a>\r\n<ol>\r\n<li class=\"footernavi-hidden\"><a href=\"/about/organization/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'About Us');\">About Us</a></li>\r\n<li><a href=\"/about/organization/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', '運営組織');\">運営組織</a></li>\r\n<li><a href=\"/about/development/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', '開発経緯');\">開発経緯</a></li>\r\n<li><a href=\"/about/location/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'ロケーション');\">ロケーション</a></li>\r\n<li><a href=\"/about/partners/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', '海外連携機関');\">海外連携機関</a></li>\r\n</ol>\r\n</li>\r\n\r\n<li><a href=\"/access/\" onclick=\"ga('send', 'event', 'Gnav', 'Click', 'アクセス');\">アクセス</a></li>\r\n\r\n</ul>\r\n</div>\r\n</div>\r\n\r\n<div id=\"headerAttention02\"></div>\r\n\r\n\n<!-- container -->\n<div id=\"container\">\n\n<!-- content -->\n<div id=\"content\">\n\n<!-- main -->\n<div class=\"main\">\n\n<h3><span>Not Found(404)</span></h3>\n\n<p>お探しの画面はみつかりませんでした。<br>\nページが削除された、もしくはURLを間違われている可能性があります。<br>\nトップページより、再度アクセスを行なってください。</p>\n\n<p class=\"margT12\" style=\"margin-bottom:20px;\">The page you are looking for could not be found.<br>\nIt is possible that the page has been deleted or that the URL is incorrect.<br>\nRe-access from the top page.</p>\n\n<!-- buttons -->\n<div class=\"buttons\">\n<input type=\"button\" value=\"戻る/Back\" class=\"button\" onClick=\"location.href='/jp'\" >\n</div>\n<!-- /buttons -->\n\n</div>\n<!-- /main -->\n\n</div>\n<!-- /content -->\n\n</div>\n<!-- /container -->\n\n\r\n<div id=\"footerBnr\">\r\n<ul>\r\n<li>\r\n  <a href=\"https://www.kc-space.jp/\" target=\"_blank\">\r\n    <picture>\r\n    <source type=\"image/webp\" srcset=\"/img/common/confference_banner.webp\" loading=\"lazy\">\r\n    <source srcset=\"/img/common/confference_banner.jpg\" loading=\"lazy\">\r\n    <img src=\"/img/common/confference_banner.jpg\" loading=\"lazy\" alt=\"小規模～大規模まで多様に対応できる会議スペース　カンファレンスルーム\">\r\n    </picture>\r\n  </a>\r\n</li>\r\n<li>\r\n  <a href=\"/facilities/business/collabo-office/\">\r\n    <picture>\r\n    <source type=\"image/webp\" srcset=\"/img/common/collabo_banner.webp\" loading=\"lazy\">\r\n    <source srcset=\"/img/common/collabo_banner.jpg\" loading=\"lazy\">\r\n    <img src=\"/img/common/collabo_banner.jpg\" loading=\"lazy\" alt=\"応接・会議スペースも利用できるスモールオフィス　コラボオフィス\">\r\n    </picture>\r\n  </a>\r\n</li>\r\n</ul>\r\n</div>\r\n\r\n<div id=\"pagetop\"><p><a href=\"#\">PAGE TOP</a></p>\r\n</div>\r\n\r\n<div id=\"footer\">\r\n  <div>\r\n    <h6><span><a href=\"/\">HOME</a></span></h6>\r\n    <ul>\r\n      <li><label anchor=\"/know/\">ナレッジキャピタルを知る</label></li>\r\n      <li>\r\n        <label anchor=\"/communicator/\">コミュニケーター</label>\r\n        <ol>\r\n          <li class=\"footernavi-hidden\"><a href=\"/communicator/\"><i>▶</i>コミュニケーター</a></li>\r\n          <li><a href=\"/communicator/kc-tour/\"><i>▶</i>ナレッジキャピタルツアー</a></li>\r\n          <li><a href=\"/communicator/thelab-tour/\"><i>▶</i>The Lab.ツアー</a></li>\r\n          <li><a href=\"/communicator/kc-taisou/\"><i>▶</i>ナレッジキャピタル体操</a></li>\r\n        </ol>\r\n      </li>\r\n      <li anchor=\"/activity/\">\r\n        <label anchor=\"/activity/\">アクティビティ</label>\r\n        <ol>\r\n          <li class=\"footernavi-hidden\"><a href=\"/activity/\"><i>▶</i>アクティビティ</a></li>\r\n          <li><a href=\"/Calendar/\"><i>▶</i>イベントカレンダー</a></li>\r\n          <li><a href=\"/activity/chogakko/\"><i>▶</i>超学校</a></li>\r\n          <li><a href=\"/activity/tairyu-pot/\"><i>▶</i>対流ポット</a></li>\r\n          <li><a href=\"/activity/workshop-fes/\"><i>▶</i>ワークショップフェス</a></li>\r\n          <li><a href=\"/activity/kotatsu/\"><i>▶</i>こたつ会議</a></li>\r\n          <li><a href=\"/activity/217/\"><i>▶</i>建築レクチュアシリーズ 217</a></li>\r\n          <li><a href=\"/activity/fls-event/\"><i>▶</i>近日開催のイベント</a></li>\r\n          <li><a href=\"/activity/salon-event/\"><i>▶</i>サロンイベントのご案内</a></li>\r\n          <li><a href=\"/activity/salon-event-report/\"><i>▶</i>サロンイベントレポート</a></li>\r\n          <li><a href=\"/activity/kwn/\"><i>▶</i>ナレッジワールドネットワーク</a></li>\r\n          <li><a href=\"/activity/ichitasu/\"><i>▶</i>月刊ナレッジキャピタル１＋(イチタス)</a></li>\r\n          <li><a href=\"/activity/times/\"><i>▶</i>ナレッジタイムズ</a></li>\r\n          <li><a href=\"/activity/acic/\"><i>▶</i>Asia Creative & Innovation Channel</a></li>\r\n          <li><a href=\"/activity/award/omosiroi/\"><i>▶</i>World OMOSIROI Award</a></li>\r\n          <li><a href=\"/activity/award/isca/\"><i>▶</i>International Student Creative Award</a></li>\r\n          <li><a href=\"/activity/award/innovation/\"><i>▶</i>Knowledge Innovation Award</a></li>\r\n          <li><a href=\"/activity/archive/\"><i>▶</i>イベントアーカイブ</a></li>\r\n        </ol>\r\n      </li>\r\n      <li>\r\n        <label anchor=\"/facilities/\">施設ガイド</label>\r\n        <ol>\r\n          <li class=\"footernavi-hidden\"><a href=\"/facilities/\"><i>▶</i>施設ガイド</a></li>\r\n          <li><a href=\"/facilities/floor-guide/\"><i>▶</i>フロアガイド</a></li>\r\n          <li><a href=\"/facilities/the-lab/\"><i>▶</i>ザ・ラボ</a></li>\r\n          <li class=\"sub\"><a href=\"/facilities/the-lab/active-lab/\">アクティブラボ</a></li>\r\n          <li class=\"sub\"><a href=\"/facilities/the-lab/active-studio/\">アクティブスタジオ</a></li>\r\n          <li class=\"sub\"><a href=\"/facilities/the-lab/cafe-lab/\">カフェラボ</a></li>\r\n          <li class=\"sub\"><a href=\"https://www.kc-space.jp/eventlab/\" target=\"_blank\">イベントラボ</a></li>\r\n          <li><a href=\"/facilities/business/knowledge-salon/\"><i>▶</i>ナレッジサロン</a></li>\r\n          <li><a href=\"/facilities/fls/\"><i>▶</i>フューチャーライフショールーム</a></li>\r\n          <li><a href=\"/facilities/springx/\"><i>▶</i>SpringX</a></li>\r\n          <li><a href=\"https://www.kc-space.jp/theater/\" target=\"_blank\"><i>▶</i>ナレッジシアター</a></li>\r\n          <li><a href=\"https://www.kc-space.jp/\" target=\"_blank\"><i>▶</i>カンファレンスルーム</a></li>\r\n          <li><a href=\"http://www.congre-cc.jp/\" target=\"_blank\"><i>▶</i>コングレコンベンションセンター</a></li>\r\n          <li><a href=\"/facilities/business/knowledge-office/\"><i>▶</i>ナレッジオフィス</a></li>\r\n          <li><a href=\"/facilities/business/collabo-office/\"><i>▶</i>コラボオフィス</a></li>\r\n          <li><a href=\"/facilities/business/collabo-office-nx/\"><i>▶</i>コラボオフィスnx</a></li>\r\n          <li><a href=\"/facilities/guide-tour/\"><i>▶</i>施設ガイドツアー</a></li>\r\n        </ol>\r\n      </li>\r\n      <li><label anchor=\"/information/\">お知らせ</label></li>\r\n      <li>\r\n        <label anchor=\"/about/\">About Us</label>\r\n        <ol>\r\n          <li class=\"footernavi-hidden\"><a href=\"/about/organization/\"><i>▶</i>About Us</a></li>\r\n          <li><a href=\"/about/organization/\"><i>▶</i>運営組織</a></li>\r\n          <li><a href=\"/about/development/\"><i>▶</i>開発経緯</a></li>\r\n          <li><a href=\"/about/location/\"><i>▶</i>ロケーション</a></li>\r\n          <li><a href=\"/about/partners/\"><i>▶</i>海外連携機関</a></li>\r\n        </ol>\r\n      </li>\r\n      <li><label anchor=\"/access/\">アクセス</label></li>\r\n      <li><label anchor=\"/contact/form/\">お問い合わせフォーム</label></li>\r\n      <li><label anchor=\"/mailmagazine/\">メールマガジン登録</label></li>\r\n      <li><label anchor=\"/channel/\">ナレッジキャピタルチャンネル</label></li>\r\n      </ul>\r\n    <p><a href=\"/about/privacy/\">プライバシーポリシー</a><a href=\"/about/sitepolicy/\">サイトポリシー</a><a href=\"/about/socialmediapolicy/\">ソーシャルメディア利用ガイドライン</a><a href=\"/tokushoho/\">特定商取引法に基づく表記</a><a href=\"/sitemap/\">サイトマップ</a>\r\n<br>\r\n<a class=\"ot-sdk-show-settings\" style=\"color:#3860be; cursor: pointer;\">Do Not Sell or Share My Personal Information</a></p>\r\n\r\n  </div>\r\n  <p>Copyright &copy; KNOWLEDGE CAPITAL All Rights Reserved.</p>\r\n</div>\r\n</body>\n</html>\n"
+    },
+    "176486.ey73g.com": {
+      "domain": "176486.ey73g.com",
+      "robots_exists": false,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": null,
+      "last_checked": "2025-07-24T13:30:31.042728"
+    },
+    "187211.webhosting60.1blu.de": {
+      "domain": "187211.webhosting60.1blu.de",
+      "robots_exists": false,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": null,
+      "last_checked": "2025-07-24T13:30:37.525618"
+    },
+    "188me.com": {
+      "domain": "188me.com",
+      "robots_exists": false,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": null,
+      "last_checked": "2025-07-24T13:30:46.731034"
+    },
+    "17caopan.com": {
+      "domain": "17caopan.com",
+      "robots_exists": false,
+      "crawl_allowed": false,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": "連接失敗: HTTPConnectionPool(host='17caopan.com', port=80): Max retries exceeded with url: /robots.txt (Caused",
+      "last_checked": "2025-07-24T13:30:36.608732"
+    },
+    "1stshieldsecurity.co.uk": {
+      "domain": "1stshieldsecurity.co.uk",
+      "robots_exists": true,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [
+        "/wp-admin/"
+      ],
+      "error": null,
+      "last_checked": "2025-07-24T13:30:48.832705",
+      "robots_content": "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n"
+    },
+    "17huodong.com": {
+      "domain": "17huodong.com",
+      "robots_exists": false,
+      "crawl_allowed": false,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": "連接失敗: HTTPConnectionPool(host='17huodong.com', port=80): Max retries exceeded with url: /robots.txt (Cause",
+      "last_checked": "2025-07-24T13:30:37.326606"
+    },
+    "2016.caaconference.org": {
+      "domain": "2016.caaconference.org",
+      "robots_exists": true,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [
+        "/wp-admin/"
+      ],
+      "error": null,
+      "last_checked": "2025-07-24T13:30:50.886740",
+      "robots_content": "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n\nSitemap: https://2016.caaconference.org/wp-sitemap.xml\n"
+    },
+    "18room.chat-528.com": {
+      "domain": "18room.chat-528.com",
+      "robots_exists": true,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": null,
+      "last_checked": "2025-07-24T13:30:47.638544",
+      "robots_content": "User-agent: MJ12bot\nDisallow: /\n\nUser-agent: 008\nDisallow: /\t\n\nUser-agent: BUbiNG\nDisallow: /\n"
+    },
+    "2012kiss.com": {
+      "domain": "2012kiss.com",
+      "robots_exists": false,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": null,
+      "last_checked": "2025-07-24T13:30:50.279352"
+    },
+    "2021.alekino.com": {
+      "domain": "2021.alekino.com",
+      "robots_exists": true,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [
+        "/cms/wp-admin/"
+      ],
+      "error": null,
+      "last_checked": "2025-07-24T13:30:53.279616",
+      "robots_content": "User-agent: *\nDisallow: /cms/wp-admin/\nAllow: /cms/wp-admin/admin-ajax.php\n\nSitemap: http://2021.alekino.com/wp-sitemap.xml\n"
+    },
+    "2127671.syk003.com": {
+      "domain": "2127671.syk003.com",
+      "robots_exists": true,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": null,
+      "last_checked": "2025-07-24T13:30:54.088119",
+      "robots_content": "User-agent: BUbiNG\nDisallow: /\n"
+    },
+    "261my.com": {
+      "domain": "261my.com",
+      "robots_exists": false,
+      "crawl_allowed": false,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": "連接失敗: HTTPConnectionPool(host='261my.com', port=80): Max retries exceeded with url: /robots.txt (Caused by",
+      "last_checked": "2025-07-24T13:31:03.970931"
+    },
+    "28novembre.net": {
+      "domain": "28novembre.net",
+      "robots_exists": true,
+      "crawl_allowed": true,
+      "crawl_delay": 10.0,
+      "disallowed_paths": [
+        "/includes/",
+        "/misc/",
+        "/modules/",
+        "/profiles/",
+        "/scripts/",
+        "/themes/",
+        "/CHANGELOG.txt",
+        "/cron.php",
+        "/INSTALL.mysql.txt",
+        "/INSTALL.pgsql.txt",
+        "/INSTALL.sqlite.txt",
+        "/install.php",
+        "/INSTALL.txt",
+        "/LICENSE.txt",
+        "/MAINTAINERS.txt",
+        "/update.php",
+        "/UPGRADE.txt",
+        "/xmlrpc.php",
+        "/admin/",
+        "/comment/reply/",
+        "/filter/tips/",
+        "/node/add/",
+        "/search/",
+        "/user/register/",
+        "/user/password/",
+        "/user/login/",
+        "/user/logout/",
+        "/?q=admin/",
+        "/?q=comment/reply/",
+        "/?q=filter/tips/",
+        "/?q=node/add/",
+        "/?q=search/",
+        "/?q=user/password/",
+        "/?q=user/register/",
+        "/?q=user/login/",
+        "/?q=user/logout/"
+      ],
+      "error": null,
+      "last_checked": "2025-07-24T13:31:16.182162",
+      "robots_content": "#\n# robots.txt\n#\n# This file is to prevent the crawling and indexing of certain parts\n# of your site by web crawlers and spiders run by sites like Yahoo!\n# and Google. By telling these \"robots\" where not to go on your site,\n# you save bandwidth and server resources.\n#\n# This file will be ignored unless it is at the root of your host:\n# Used:    http://example.com/robots.txt\n# Ignored: http://example.com/site/robots.txt\n#\n# For more information about the robots.txt standard, see:\n# http://www.robotstxt.org/robotstxt.html\n\nUser-agent: *\nCrawl-delay: 10\n# CSS, JS, Images\nAllow: /misc/*.css$\nAllow: /misc/*.css?\nAllow: /misc/*.js$\nAllow: /misc/*.js?\nAllow: /misc/*.gif\nAllow: /misc/*.jpg\nAllow: /misc/*.jpeg\nAllow: /misc/*.png\nAllow: /modules/*.css$\nAllow: /modules/*.css?\nAllow: /modules/*.js$\nAllow: /modules/*.js?\nAllow: /modules/*.gif\nAllow: /modules/*.jpg\nAllow: /modules/*.jpeg\nAllow: /modules/*.png\nAllow: /profiles/*.css$\nAllow: /profiles/*.css?\nAllow: /profiles/*.js$\nAllow: /profiles/*.js?\nAllow: /profiles/*.gif\nAllow: /profiles/*.jpg\nAllow: /profiles/*.jpeg\nAllow: /profiles/*.png\nAllow: /themes/*.css$\nAllow: /themes/*.css?\nAllow: /themes/*.js$\nAllow: /themes/*.js?\nAllow: /themes/*.gif\nAllow: /themes/*.jpg\nAllow: /themes/*.jpeg\nAllow: /themes/*.png\n# Directories\nDisallow: /includes/\nDisallow: /misc/\nDisallow: /modules/\nDisallow: /profiles/\nDisallow: /scripts/\nDisallow: /themes/\n# Files\nDisallow: /CHANGELOG.txt\nDisallow: /cron.php\nDisallow: /INSTALL.mysql.txt\nDisallow: /INSTALL.pgsql.txt\nDisallow: /INSTALL.sqlite.txt\nDisallow: /install.php\nDisallow: /INSTALL.txt\nDisallow: /LICENSE.txt\nDisallow: /MAINTAINERS.txt\nDisallow: /update.php\nDisallow: /UPGRADE.txt\nDisallow: /xmlrpc.php\n# Paths (clean URLs)\nDisallow: /admin/\nDisallow: /comment/reply/\nDisallow: /filter/tips/\nDisallow: /node/add/\nDisallow: /search/\nDisallow: /user/register/\nDisallow: /user/password/\nDisallow: /user/login/\nDisallow: /user/logout/\n# Paths (no clean URLs)\nDisallow: /?q=admin/\nDisallow: /?q=comment/reply/\nDisallow: /?q=filter/tips/\nDisallow: /?q=node/add/\nDisallow: /?q=search/\nDisallow: /?q=user/password/\nDisallow: /?q=user/register/\nDisallow: /?q=user/login/\nDisallow: /?q=user/logout/\n"
+    },
+    "2baksa.ws": {
+      "domain": "2baksa.ws",
+      "robots_exists": true,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [
+        "/engine/go.php",
+        "/user/",
+        "/newposts/",
+        "/statistics.html",
+        "/*subaction=userinfo",
+        "/*subaction=newposts",
+        "/*do=lastcomments",
+        "/*do=feedback",
+        "/*do=register",
+        "/*do=lostpassword",
+        "/*do=addnews",
+        "/*do=stats",
+        "/*do=pm",
+        "/*do=search",
+        "/*do=download",
+        "/*do=go"
+      ],
+      "error": null,
+      "last_checked": "2025-07-24T13:31:17.197181",
+      "robots_content": "User-agent: *\nDisallow: /engine/go.php\nDisallow: /user/\nDisallow: /newposts/\nDisallow: /statistics.html\nDisallow: /*subaction=userinfo\nDisallow: /*subaction=newposts\nDisallow: /*do=lastcomments\nDisallow: /*do=feedback\nDisallow: /*do=register\nDisallow: /*do=lostpassword\nDisallow: /*do=addnews\nDisallow: /*do=stats\nDisallow: /*do=pm\nDisallow: /*do=search\nDisallow: /*do=download\nDisallow: /*do=go"
+    },
+    "24dim-athin.att.sch.gr": {
+      "domain": "24dim-athin.att.sch.gr",
+      "robots_exists": false,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": null,
+      "last_checked": "2025-07-24T13:30:56.601287"
+    },
+    "2q.changchunfangchan.com": {
+      "domain": "2q.changchunfangchan.com",
+      "robots_exists": false,
+      "crawl_allowed": false,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": "連接失敗: HTTPConnectionPool(host='2q.changchunfangchan.com', port=80): Max retries exceeded with url: /robots",
+      "last_checked": "2025-07-24T13:31:17.672385"
+    },
+    "26uuus.com": {
+      "domain": "26uuus.com",
+      "robots_exists": true,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": null,
+      "last_checked": "2025-07-24T13:31:08.826419",
+      "robots_content": "User-agent: *\r\nAllow: /\r\nSitemap: http://www.26uuus.com/sitemap.xml"
+    },
+    "2x9cc.com": {
+      "domain": "2x9cc.com",
+      "robots_exists": false,
+      "crawl_allowed": false,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": "連接失敗: HTTPConnectionPool(host='2x9cc.com', port=80): Max retries exceeded with url: /robots.txt (Caused by",
+      "last_checked": "2025-07-24T13:31:23.842785"
+    },
+    "305.su": {
+      "domain": "305.su",
+      "robots_exists": true,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [
+        "/wp-admin/"
+      ],
+      "error": null,
+      "last_checked": "2025-07-24T13:31:29.889458",
+      "robots_content": "<br />\n<b>Warning</b>:  \"continue\" targeting switch is equivalent to \"break\". Did you mean to use \"continue 2\"? in <b>/var/www/u4318018/data/www/305.su/wp-content/plugins/revslider/includes/operations.class.php</b> on line <b>2364</b><br />\n<br />\n<b>Warning</b>:  \"continue\" targeting switch is equivalent to \"break\". Did you mean to use \"continue 2\"? in <b>/var/www/u4318018/data/www/305.su/wp-content/plugins/revslider/includes/operations.class.php</b> on line <b>2368</b><br />\n<br />\n<b>Warning</b>:  \"continue\" targeting switch is equivalent to \"break\". Did you mean to use \"continue 2\"? in <b>/var/www/u4318018/data/www/305.su/wp-content/plugins/revslider/includes/output.class.php</b> on line <b>3169</b><br />\n<br />\n<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /var/www/u4318018/data/www/305.su/wp-content/plugins/revslider/includes/operations.class.php:2364) in <b>/var/www/u4318018/data/www/305.su/wp-includes/functions.php</b> on line <b>1366</b><br />\nUser-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n"
+    },
+    "31gim.xyz": {
+      "domain": "31gim.xyz",
+      "robots_exists": false,
+      "crawl_allowed": false,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": "連接失敗: HTTPConnectionPool(host='31gim.xyz', port=80): Max retries exceeded with url: /robots.txt (Caused by",
+      "last_checked": "2025-07-24T13:31:35.738694"
+    },
+    "3ae8.com": {
+      "domain": "3ae8.com",
+      "robots_exists": false,
+      "crawl_allowed": false,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": "連接失敗: HTTPConnectionPool(host='3ae8.com', port=80): Max retries exceeded with url: /robots.txt (Caused by ",
+      "last_checked": "2025-07-24T13:31:36.041285"
+    },
+    "3g.cqxiehe.com": {
+      "domain": "3g.cqxiehe.com",
+      "robots_exists": false,
+      "crawl_allowed": false,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": "連接失敗: HTTPConnectionPool(host='3g.cqxiehe.com', port=80): Max retries exceeded with url: /robots.txt (Caus",
+      "last_checked": "2025-07-24T13:31:40.035589"
+    },
+    "3l0er.com": {
+      "domain": "3l0er.com",
+      "robots_exists": false,
+      "crawl_allowed": false,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": "連接失敗: HTTPConnectionPool(host='3l0er.com', port=80): Max retries exceeded with url: /robots.txt (Caused by",
+      "last_checked": "2025-07-24T13:31:47.879436"
+    },
+    "3n4p.com": {
+      "domain": "3n4p.com",
+      "robots_exists": false,
+      "crawl_allowed": false,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": "連接失敗: HTTPConnectionPool(host='3n4p.com', port=80): Max retries exceeded with url: /robots.txt (Caused by ",
+      "last_checked": "2025-07-24T13:31:48.348826"
+    },
+    "3wap.cc": {
+      "domain": "3wap.cc",
+      "robots_exists": false,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": null,
+      "last_checked": "2025-07-24T13:31:52.439936"
+    },
+    "470116.puy040.com": {
+      "domain": "470116.puy040.com",
+      "robots_exists": true,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": null,
+      "last_checked": "2025-07-24T13:32:00.529708",
+      "robots_content": "User-agent: BUbiNG\nDisallow: /\n"
+    },
+    "41248.room.oishow.com": {
+      "domain": "41248.room.oishow.com",
+      "robots_exists": true,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": null,
+      "last_checked": "2025-07-24T13:32:00.080905",
+      "robots_content": "User-Agent: MJ12bot\nCrawl-Delay:   5\n"
+    },
+    "483044.213tk.vip": {
+      "domain": "483044.213tk.vip",
+      "robots_exists": false,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": null,
+      "last_checked": "2025-07-24T13:32:06.739057"
+    },
+    "48g.pl": {
+      "domain": "48g.pl",
+      "robots_exists": true,
+      "crawl_allowed": true,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": null,
+      "last_checked": "2025-07-24T13:32:06.954639",
+      "robots_content": "#robots.txt for http://48g.pl/\n\nUser-agent: Googlebot\nDisallow: /core/\nDisallow: /database/\n\nSitemap: http://48g.pl/sitemap.xml"
+    },
+    "480303897.golpoporuya.in": {
+      "domain": "480303897.golpoporuya.in",
+      "robots_exists": false,
+      "crawl_allowed": false,
+      "crawl_delay": null,
+      "disallowed_paths": [],
+      "error": "連接失敗: HTTPConnectionPool(host='480303897.golpoporuya.in', port=80): Max retries exceeded with url: /robots",
+      "last_checked": "2025-07-24T13:32:01.750329"
+    }
+  }
+}

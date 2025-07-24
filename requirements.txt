@@ -1,2 +1,11 @@
-requests>=2.25.0
-urllib3>=1.26.0
+# FineWeb Domain Analyzer - 依賴套件
+
+# 核心功能需求
+requests>=2.25.0          # HTTP 請求和 robots.txt 檢查
+urllib3>=1.26.0           # HTTP 客戶端庫
+
+# WARC 處理功能 (可選)
+warcio>=1.7.4             # WARC 文件處理
+
+# 系統需求
+# python>=3.7             # Python 版本要求

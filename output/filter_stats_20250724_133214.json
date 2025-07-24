@@ -1,0 +1,14 @@
+{
+  "metadata": {
+    "generated_at": "2025-07-24T13:32:14.233528",
+    "source_file": "examples\\test_data.jsonl",
+    "filtered_file": "output\\filtered_test_data_20250724_133214.jsonl",
+    "excluded_file": "output\\excluded_test_data_20250724_133214.jsonl"
+  },
+  "statistics": {
+    "total_processed": 50,
+    "filtered_kept": 34,
+    "excluded_count": 16,
+    "keep_ratio": 68.0
+  }
+}
