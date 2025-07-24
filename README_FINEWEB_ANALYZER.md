@@ -140,16 +140,3 @@ pip install -r requirements.txt
 python fineweb_analyzer.py --input sample.warc.gz --all-steps --max-records 100 --verbose
 ```
 
-## 📄 許可證
-
-MIT License - 詳見 LICENSE 文件
-
-## 📞 支持
-
-- 🐛 **Bug 報告**: [GitHub Issues](https://github.com/your-username/fineweb-domain-analyzer/issues)
-- 💡 **功能建議**: [GitHub Discussions](https://github.com/your-username/fineweb-domain-analyzer/discussions)
-- 📧 **聯繫方式**: your-email@example.com
-
----
-
-**⚠️ 重要提醒**: 使用本工具處理數據時，請確保遵循相關法律法規和數據使用政策。
